@@ -23,6 +23,7 @@ PREFIX=/data/local/tmp ./configure \
   --with-zlib \
   --with-ssl=/data/local/tmp/lib \
   --bindir=/data/local/tmp/xbin \
+  --mandir=/data/local/tmp/lib/share/man \
   --host=${CROSS_COMPILE} \
   --with-sysroot=${SYSROOT} \
   --prefix=${PREFIX} \
