@@ -70,16 +70,16 @@ mandir= /data/local/tmp/lib/share/man/man1
 MANDIR= $(DESTDIR)$(mandir)
 
 ## Where you want the lynx.cfg file installed
-sysconfdir= ${prefix}/etc
+sysconfdir= /data/local/tmp/etc
 SYSCONFDIR= $(DESTDIR)$(sysconfdir)
 
 ## Where you want the doc-files installed
-datarootdir= ${prefix}/share
-docdir    = ${datarootdir}/lynx_doc
+datarootdir= /data/local/tmp/lib/share
+docdir    = /data/local/tmp/lib/share/lynx_doc
 DOCDIR    = $(DESTDIR)$(docdir)
 
 ## Where you want the help-files installed
-helpdir   = ${datarootdir}/lynx_help
+helpdir   = /data/local/tmp/lib/share/lynx_help
 HELPDIR   = $(DESTDIR)$(helpdir)
 
 ##set the relative location of the WWW library Implementation directory,

@@ -11,7 +11,7 @@ LFLAGS =
 
 prefix		= /data/local/tmp
 exec_prefix	= ${prefix}
-datarootdir	= ${prefix}/share
+datarootdir	= /data/local/tmp/lib/share
 top_srcdir	= ../../..
 srcdir		= .
 

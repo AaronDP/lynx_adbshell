@@ -6,7 +6,7 @@ CDPATH		= .
 
 
 prefix		= /data/local/tmp
-datarootdir	= ${prefix}/share
+datarootdir	= /data/local/tmp/lib/share
 exec_prefix	= ${prefix}
 top_srcdir	= ..
 srcdir		= .
